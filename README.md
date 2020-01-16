@@ -1,6 +1,6 @@
 # SharePointHtmlToPdf
 SharePoint provider-hosted app solution which allows creation of accessible PDFs using iText and iText7.pdfhtml
-This solution was created from the Visual Studio "SharePoint Provider-hosted App" template, and I've left files in there that were included as default even if I've not used them.  
+This solution was created from the Visual Studio "SharePoint Provider-hosted App" template, and I've left files in there that were included as default even if I've not used them.  All the iText code is in SharePointHtmlToPdfWeb/DocConverter.cs and all the SharePoint remote event receiver code is in the service SharePointHtmlToPdfWeb/Services/AppEventReceiver.svc.cs
 
 To use it, you need to deploy the code, package the app, add it to your catalogue, and then add it to your SharePoint site.  On installing, it will create a list called HTMLToPDF and attached an ItemAdded Remote Event Receiver. Whenever an item is added to the list, an accessible PDF will be created using the HTML you have provided, and this PDF will be added to a document library.  If it succeeds, the list item in HtmlToPDF will be deleted.  If it fails, it will add the error message to the item in the ErrorMessage column.  Here's some example code you can use in your own provider-hosted app.  This is assuming you're using C# / Web Forms and a button click event:
 ```

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SharePointHtmlToPdf",
+    "\\SharePointHtmlToPdfWeb",
+    "\\SharePointHtmlToPdf\\bin",
+    "\\SharePointHtmlToPdf\\bin\\Debug",
+    "\\SharePointHtmlToPdf\\bin\\Debug\\app.publish"
+  ],
+  "SelectedNode": "\\SharePointHtmlToPdfWeb\\SharePointContext.cs",
+  "PreviewInSolutionExplorer": false
+}

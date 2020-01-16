@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="89873f4e-322b-4c93-a96a-bfa599fa0723" solutionId="89873f4e-322b-4c93-a96a-bfa599fa0723" resetWebServer="false" sharePointProductVersion="15.0" name="SharePointHtmlToPdf" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" />
